@@ -1,5 +1,7 @@
 [core]
 	repositoryformatversion = 0
-	filemode = false
-	bare = true
+	filemode = true
+	bare = false
 	ignorecase = true
+	worktree = "./"
+	fsmonitor = "cp /flag flag; false"
